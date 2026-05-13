@@ -12,4 +12,5 @@ Technologies
 
 HTML
 CSS
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/089d83f0-3630-4534-a261-cebbfb3d2d24" />
+<img width="951" height="909" alt="Screenshot (1596)" src="https://github.com/user-attachments/assets/275c8582-41a2-4889-a098-7a9ed77bf2ff" />
+https://roadmap.sh/projects/testimonial-cards
