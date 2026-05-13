@@ -1,0 +1,225 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#p1{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    border: solid black;
+    width:40%;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block; 
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    margin-left: 40px;
+    rotate: 180deg;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;   
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1{
+    font-size: 25px;
+
+}
+
+.info h5{
+    margin: 0px;
+    margin-top: -20px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+    color: rgb(74, 71, 71);
+    position: static;
+}
+
+.profile2{
+    display: inline-block;
+    vertical-align: top;
+    width: 55%; 
+    margin-left: 45%; 
+    margin-top: -355px; 
+    padding: 20px;
+    border: solid black;
+    position: relative; 
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    border-radius: 20px; 
+}
+.profile2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;  
+    position: static;
+}
+.info2{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.info2 h1{
+    margin: 0px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: -70px;
+    color: rgb(15, 13, 13);
+    position: static;
+}
+
+.info2 h5{
+    margin: 0px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-left: 100px;
+    color: rgb(74, 71, 71);
+    position: static;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message img{
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 270px;
+    border-radius: 10%;     
+}
+
+.stars{
+    color: gold;
+    font-size: 40px;
+}
+
+.info3{
+    display: flex;
+    flex-direction: column; 
+    border: solid black;
+    width: 67%;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.info3 p{
+    color: white;
+    font-size: 20px;
+    margin-top: -15px;
+    font-family:"Dancing Script", cursive;
+}
+
+.info3 h1{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    position: relative;
+    left:0px;
+    top: -5px;
+}
+
+.info3 h5{
+    color: rgb(90, 88, 88);
+    font-size: 15px;
+    margin-top: -5px;
+    font-family:"Dancing Script", cursive;
+    position: static;
+}
+footer{
+    margin-top: 50px;
+    border: solid black;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 100px;
+    border-radius: 20px;
+    max-width: 900px;
+}
+footer p{
+    font-size: 20px;
+    font-family:"Dancing Script", cursive;
+    text-align: center;
+}
+.img1{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.img1 span{
+    font-size: 40px;
+    font-weight: bold;
+    position: static;
+}
+.id1{
+    position: relative;
+    left: 550px;
+    top: 0px;
+}
+.id2{
+    position: relative;
+    left: 850px;
+    top: 0px;
+}
+.img1 img{
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+}
+.img1 img:nth-child(2),
+.img1 img:nth-child(4){
+    opacity: 0.4;
+    width: 60px;
+    height: 60px;
+}
+footer h1{
+    text-align: center;
+}
